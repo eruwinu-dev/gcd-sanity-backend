@@ -1,0 +1,18 @@
+export default {
+	name: "youtube",
+	type: "object",
+	title: "Youtube Embed",
+	fields: [
+		{
+			name: "url",
+			type: "url",
+			title: "Youtube video URL",
+		},
+	],
+	preview: {
+		select: {
+			title: "url",
+		},
+	},
+}
+
