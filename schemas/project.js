@@ -23,9 +23,30 @@ export default {
 			type: "text",
 		},
 		{
+			name: "team",
+			ttile: "Team",
+			type: "text",
+		},
+		{
+			name: "categories",
+			title: "Categories",
+			type: "array",
+			of: [{ type: "reference", to: { type: "projectCategory" } }],
+		},
+		{
 			name: "body",
 			title: "Body",
 			type: "blockContent",
+		},
+		{
+			name: "images",
+			title: "Images",
+			type: "text",
+		},
+		{
+			name: "order",
+			title: "Order",
+			type: "number",
 		},
 	],
 }

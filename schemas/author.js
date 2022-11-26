@@ -23,6 +23,11 @@ export default {
 			type: "string",
 		},
 		{
+			name: "order",
+			title: "Order",
+			type: "number",
+		},
+		{
 			name: "image",
 			title: "Image",
 			type: "image",

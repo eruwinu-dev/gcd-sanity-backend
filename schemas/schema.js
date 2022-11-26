@@ -10,9 +10,11 @@ import category from "./category"
 import post from "./post"
 import author from "./author"
 import youtube from "./youtube"
+import project from "./project"
+import projectCategory from "./projectCategory"
 
 export default createSchema({
 	name: "default",
-	types: schemaTypes.concat([post, author, category, blockContent, youtube]),
+	types: schemaTypes.concat([post, author, category, blockContent, youtube, project, projectCategory]),
 })
 
